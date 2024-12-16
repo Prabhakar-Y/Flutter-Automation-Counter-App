@@ -1,0 +1,26 @@
+{
+  "name": "appium-flutter-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/tests/counter.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@wdio/types": "^9.4.2",
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "appium": "^2.13.1",
+    "appium-flutter-driver": "^2.11.0",
+    "appium-flutter-finder": "^0.2.0",
+    "webdriverio": "^9.4.2"
+  }
+}
