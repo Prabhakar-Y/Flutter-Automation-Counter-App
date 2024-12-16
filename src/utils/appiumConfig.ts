@@ -12,6 +12,7 @@ export const config = {
     "appium:noReset": true,
     "appium:appPackage": 'com.example.counter_app',
     "appium:appActivity": 'com.example.counter_app.MainActivity',
-    "appium:commandTimeout": 90000,  
+    "appium:commandTimeout": 90000,   //timeout in milliseconds
+
   }
 };

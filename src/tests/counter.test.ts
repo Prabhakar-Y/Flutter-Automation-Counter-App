@@ -8,7 +8,7 @@ import it, { before, describe } from 'node:test';
 
 let driver: WebdriverIO.Browser;
 
-describe('Flutter Counter app test', () => {
+describe('Flutter Counter app tests', () => {
   before(async () => {
     driver = await remote(config);
   });
@@ -43,13 +43,12 @@ describe('Flutter Counter app test', () => {
     // Convert to a number
     const decrementedValue = parseInt(convertDecrementButton, 10);
     console.log(`Counter value as a number: ${decrementedValue}`);
-       
 
-   // const value = await driver.getElementText(counterValue);
+  //  const value = await driver.getElementText(counterValue);
   //  console.log(`Counter value is ${value}`);
 
-   // if (value !== '1') {
-    //  throw new Error(`Expected counter value to be '1' but got ${value}`);
-    //}
+  //  if (value !== '1') {
+  //    throw new Error(`Expected counter value to be '1' but got ${value}`);
+  //   }
   });
 });
